@@ -1,0 +1,35 @@
+* {
+        box-sizing: border-box;
+}
+
+html, body {
+        --dark: #222222;
+        margin: 0;
+        padding: 0;
+        font-family: monospace;
+        background-color: var(--dark);
+        color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+}
+
+#error {
+        text-align: center;
+        padding-top: 200px;
+}
+#error p {
+        color: red;
+}
+canvas {
+        background-color: white;
+        margin: auto;
+        display: block;
+}
+
+.hide {
+        display: none;
+}
